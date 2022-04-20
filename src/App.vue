@@ -17,4 +17,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+input {
+  pointer-events: none;
+  position: absolute;
+  left: -9999px;
+}
+</style>
